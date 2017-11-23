@@ -3,7 +3,7 @@ package test.armory;
  * 	[ 접근 지정자 ]
  * 		접근 지정자를 붙일 수 있는 곳은 4 곳 : class, 생성자, 필드 , 메소드
  * 
- *  class 접근 지정자
+ *  class 접근 지정자	(import 에 영향을 미침)
  *  
  *  	1. public	: 전체 공개
  *  	2. default	: 같은 패키지 내에서만 접근 가능	//안 적으면 자동으로 default 임
