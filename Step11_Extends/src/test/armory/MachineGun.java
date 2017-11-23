@@ -22,6 +22,8 @@ public class MachineGun extends Gun{
 		//외부에는 공개 안하고, 상속 관계 내 자식에게는 공개하고 싶을 때,
 		//접근 지정자 protected
 		//Gun 클래스에서 protected Bullet bullet;
+		//만일 Gun.java 에서 bullet 을 private 로 정의하면,
+		//여기는 지금 하위 클래스이므로 bullet 참조 불가
 		if(this.bullet==null) {
 			System.out.println("총알 객체가 없어서 발사 불가");
 		}
